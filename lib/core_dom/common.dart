@@ -10,7 +10,7 @@ typedef ApplyMapping(NodeAttrs attrs, Scope scope, Object dst,
 class DirectiveRef {
   final dom.Node element;
   final Type type;
-  final NgAnnotation annotation;
+  final AbstractNgAnnotation annotation;
   final String value;
   final mappings = new List<ApplyMapping>();
 
